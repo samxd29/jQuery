@@ -1,3 +1,5 @@
+$("botao-placar").click(mostraPlacar);
+
 function inserePlacar(){
     var corpoTabela = $(".placar").find("tbody"); // .find quer dizer que está dentro do section placar, funciona como uma bolha;
     var usuario = "Samantha";
